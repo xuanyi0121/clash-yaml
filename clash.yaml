@@ -198,7 +198,21 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
       - 𝐎𝐭𝐡𝐞𝐫
-     
+  - name: 漏网之鱼 #代理组名称，你在“代理”里看到的组的名字
+    type: select #类型：手动选择
+    # proxies引用别的组或者配置在文件内proxies的节点
+    proxies:
+      - 𝐏𝐫𝐨𝐱𝐲
+      - 𝐇𝐊
+      - 𝐓𝐖
+      - 𝐌𝐎
+      - 𝐒𝐆
+      - 𝐉𝐏
+      - 𝐔𝐒
+      - 𝐎𝐭𝐡𝐞𝐫
+      # 如有配置proxies部分可按如下格式使用配置文件内自定义的节点(非订阅节点)
+      # - ss1
+      
   - name: 𝐇𝐊
     type: url-test
     use:
@@ -403,3 +417,4 @@ rules:
   - RULE-SET,GoogleVoice,𝐆𝐨𝐨𝐠𝐥𝐞𝐕𝐨𝐢𝐜𝐞 
   - RULE-SET,China,DIRECT
   - RULE-SET,Lan,DIRECT
+  - MATCH,漏网之鱼
