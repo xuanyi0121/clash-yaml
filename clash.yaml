@@ -61,7 +61,7 @@ proxy-groups:
     type: select
     use:
       - Sub1
-    # - Sub2
+      - Sub2
     # - Sub3
     # filter使用正则表达式去筛选节点
     # filter: "🇭🇰|HK|Hong|香港|港"
@@ -203,7 +203,7 @@ proxy-groups:
     type: url-test
     use:
       - Sub1
-      # - Sub2
+      - Sub2
       # - Sub3
     # filter使用正则表达式去筛选节点
     filter: "🇭🇰|HK|Hong|香港|港"
@@ -212,7 +212,7 @@ proxy-groups:
     type: url-test
     use:
       - Sub1
-      # - Sub2
+      - Sub2
       # - Sub3
     # filter使用正则表达式去筛选节点
     filter: "🇹🇼|tw|TW|台湾|台|Taiwan"  
@@ -221,7 +221,7 @@ proxy-groups:
     type: url-test
     use:
       - Sub1
-      # - Sub2
+      - Sub2
       # - Sub3
     # filter使用正则表达式去筛选节点
     filter: "🇲🇴|MO|澳门|澳門|Macao"
@@ -230,7 +230,7 @@ proxy-groups:
     type: url-test
     use:
       - Sub1
-      # - Sub2
+      - Sub2
       # - Sub3
     filter: "🇸🇬|SG|Singapore|狮城|新加坡" 
 
@@ -238,7 +238,7 @@ proxy-groups:
     type: url-test
     use:
       - Sub1
-      # - Sub2
+      - Sub2
       # - Sub3
     filter: "🇯🇵|JP|japan|日本"
 
@@ -246,7 +246,7 @@ proxy-groups:
     type: url-test
     use:
       - Sub1
-      # - Sub2
+      - Sub2
       # - Sub3
     filter: "🇺🇸|US|United|美|美国"
 
@@ -254,7 +254,7 @@ proxy-groups:
     type: select
     use:
       - Sub1
-      # - Sub2
+      - Sub2
       # - Sub3
     # 筛选除日美新港外的节点，可自行按格式添加
     filter: "^(?!.*(?:Hong|HK|TW|Taiwan|USA|Japan|Singapore|USA|🇭🇰|🇯🇵|🇸🇬|🇹🇼|🇺🇸|香港|日本|狮城|新加坡|台湾|美国)).*"
@@ -266,12 +266,12 @@ proxy-providers:
   Sub1:
     <<: *http
     path: ./proxies/Sub1.yaml
-    url: 订阅链接
+    url: https://6993300.eu.org/api/v1/client/subscribe?token=26671733edc29949112b93a5a7717592
 
-  # Sub3:
-  #   <<: *file
-  #   path: ./proxies/Sub2.yaml
-  #   url: 订阅链接
+  Sub2:
+    <<: *file
+    path: ./proxies/Sub2.yaml
+    url: http://esycloud.6993300.dev/api/v1/client/subscribe?token=aa78779e96ed2f0b9815ed0f44b99a0c
   #
   # 本地节点，路径可填写绝对路径或者相对路径(为clash工作目录下)
   # Sub3:
