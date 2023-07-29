@@ -159,8 +159,7 @@ proxy-groups:
   - name: 𝐖𝐞𝐂𝐡𝐚𝐭
     type: select
     proxies:
-      - DIRECT
-      - REJECT    
+      - DIRECT    
 #国外网站策略组
   - name: 国外网站
     type: select
