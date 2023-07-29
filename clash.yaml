@@ -45,8 +45,18 @@ dns:
     geoip: true
     geoip-code: CN
     
-# 如果有节点可按文档填写，并在group内使用    
-    proxy-groups:
+# 如果有节点可按文档填写，并在group内使用 
+proxies:
+  # - name: "ss1"
+  #   type: ss
+  #   server: server
+  #   port: 443
+  #   cipher: chacha20-ietf-poly1305
+  #   password: "password"
+  #   # udp: true
+
+  
+proxy-groups:
   - name: 𝐏𝐫𝐨𝐱𝐲
     type: select
     use:
