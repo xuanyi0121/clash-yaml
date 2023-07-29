@@ -155,6 +155,12 @@ proxy-groups:
       - 𝐉𝐏
       - 𝐔𝐒
       - 𝐎𝐭𝐡𝐞𝐫
+#WeChat策略组
+  - name: 𝐖𝐞𝐂𝐡𝐚𝐭
+    type: select
+    proxies:
+      - 𝐃𝐈𝐑𝐄𝐂𝐓
+      - REJECT    
 #国外网站策略组
   - name: 国外网站
     type: select
@@ -344,6 +350,6 @@ rules:
   - RULE-SET,TikTok,𝐓𝐢𝐤𝐓𝐨𝐤
   - RULE-SET,OpenAI,𝐎𝐩𝐞𝐧𝐀𝐈
   - RULE-SET,Global,国外网站
-  - RULE-SET,WeChat,𝐃𝐈𝐑𝐄𝐂𝐓
+  - RULE-SET,WeChat,𝐖𝐞𝐂𝐡𝐚𝐭
   - RULE-SET,China,𝐃𝐈𝐑𝐄𝐂𝐓
   - RULE-SET,Lan,𝐃𝐈𝐑𝐄𝐂𝐓
