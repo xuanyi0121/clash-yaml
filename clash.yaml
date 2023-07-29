@@ -24,6 +24,7 @@ ipv6: false
 external-controller: 127.0.0.1:9090
 # 控制面板相对路径
 # external-ui: folder
+
 dns:
   enable: true
   ipv6: false
@@ -43,6 +44,7 @@ dns:
   fallback-filter:
     geoip: true
     geoip-code: CN
+    
 # 如果有节点可按文档填写，并在group内使用    
     proxy-groups:
   - name: 𝐏𝐫𝐨𝐱𝐲
