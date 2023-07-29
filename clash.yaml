@@ -185,7 +185,7 @@ proxy-groups:
     # filter使用正则表达式去筛选节点
     filter: "🇹🇼|tw|TW|台湾|台|Taiwan"  
 
-    - name: 𝐌𝐎
+  - name: 𝐌𝐎
     type: url-test
     use:
       - Sub1
