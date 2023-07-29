@@ -351,5 +351,5 @@ rules:
   - RULE-SET,OpenAI,𝐎𝐩𝐞𝐧𝐀𝐈
   - RULE-SET,Global,国外网站
   - RULE-SET,WeChat,𝐖𝐞𝐂𝐡𝐚𝐭
-  - RULE-SET,China,𝐃𝐈𝐑𝐄𝐂𝐓
-  - RULE-SET,Lan,𝐃𝐈𝐑𝐄𝐂𝐓
+  - RULE-SET,China,DIRECT
+  - RULE-SET,Lan,DIRECT
