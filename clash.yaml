@@ -239,7 +239,7 @@ proxy-providers:
   Sub1:
     <<: *http
     path: ./proxies/Sub1.yaml
-    url: https://v1.dogapi.yachts/api/v1/client/subscribe?token=b73a13fe4c59f6a312480aa8b629543b
+    url: 订阅链接
 
   # Sub3:
   #   <<: *file
