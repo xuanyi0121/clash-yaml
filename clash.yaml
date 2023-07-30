@@ -151,6 +151,7 @@ proxy-groups:
       - 𝐇𝐊
       - 𝐓𝐖
       - 𝐌𝐎
+      - 𝐂𝐍
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
@@ -186,7 +187,7 @@ proxy-groups:
   - name: 𝐖𝐞𝐂𝐡𝐚𝐭
     type: select
     proxies:
-      - DIRECT    
+      - 𝐂𝐍    
 #国外网站策略组
   - name: 国外网站
     type: select
@@ -226,6 +227,15 @@ proxy-groups:
     # filter使用正则表达式去筛选节点
     filter: "🇲🇴|MO|澳门|澳門|Macao"
 
+  - name: 𝐂𝐍
+    type: url-test
+    use:
+      - Sub1
+      - Sub2
+      # - Sub3
+    # filter使用正则表达式去筛选节点
+    filter: "🇨🇳|cn|中国|中國|China"
+    
   - name: 𝐒𝐆
     type: url-test
     use:
@@ -266,12 +276,12 @@ proxy-providers:
   Sub1:
     <<: *http
     path: ./proxies/Sub1.yaml
-    url: 订阅链接
+    url: https://6993300.eu.org/api/v1/client/subscribe?token=26671733edc29949112b93a5a7717592
 
   Sub2:
     <<: *http
     path: ./proxies/Sub2.yaml
-    url: 订阅链接
+    url: http://esycloud.6993300.dev/api/v1/client/subscribe?token=aa78779e96ed2f0b9815ed0f44b99a0c
   #
   # 本地节点，路径可填写绝对路径或者相对路径(为clash工作目录下)
   # Sub3:
