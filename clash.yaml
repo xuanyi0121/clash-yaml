@@ -216,7 +216,7 @@ proxy-groups:
       - Sub2
       # - Sub3
     # filter使用正则表达式去筛选节点
-    filter: "🇹🇼|tw|TW|台湾|台|Taiwan"  
+    filter: "🇹🇼|tw|TW|tai|台湾|台|Taiwan"  
 
   - name: 𝐌𝐎
     type: url-test
@@ -250,7 +250,7 @@ proxy-groups:
       - Sub1
       - Sub2
       # - Sub3
-    filter: "🇯🇵|JP|japan|日本"
+    filter: "🇯🇵|JP|japan|日本|川日|东京|大阪|泉日|埼玉|沪日|深日"
 
   - name: 𝐔𝐒
     type: url-test
@@ -258,7 +258,7 @@ proxy-groups:
       - Sub1
       - Sub2
       # - Sub3
-    filter: "🇺🇸|US|United|美|美国"
+    filter: "🇺🇸|US|United|United States|美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥"
 
   - name: 𝐎𝐭𝐡𝐞𝐫
     type: select
@@ -413,3 +413,4 @@ rules:
   - RULE-SET,GoogleVoice,𝐆𝐨𝐨𝐠𝐥𝐞𝐕𝐨𝐢𝐜𝐞 
   - RULE-SET,China,DIRECT
   - RULE-SET,Lan,DIRECT
+  
