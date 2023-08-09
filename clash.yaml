@@ -1,4 +1,4 @@
-p# yaml锚点(不懂自行Google)勿动
+# yaml锚点(不懂自行Google)勿动
 proxy-provider-http: &http
   type: http
   interval: 3600
