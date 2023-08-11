@@ -446,6 +446,7 @@ rules:
   - RULE-SET,PayPal,𝐏𝐚𝐲𝐏𝐚𝐥
   - RULE-SET,WeChat,𝐖𝐞𝐂𝐡𝐚𝐭
   - RULE-SET,GoogleVoice,𝐆𝐨𝐨𝐠𝐥𝐞𝐕𝐨𝐢𝐜𝐞 
+  - RULE-SET,Google,𝐆𝐨𝐨𝐠𝐥𝐞
   - RULE-SET,China,DIRECT
   - RULE-SET,Lan,DIRECT
   
