@@ -131,7 +131,6 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-      - 𝐎𝐭𝐡𝐞𝐫
 #Disney策略组
   - name: 𝐃𝐢𝐬𝐧𝐞𝐲+
     type: select
@@ -142,7 +141,6 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-      - 𝐎𝐭𝐡𝐞𝐫
 #Bilibili策略组
   - name: 𝐁𝐢𝐥𝐢𝐛𝐢𝐥𝐢
     type: select
@@ -155,7 +153,6 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-      - 𝐎𝐭𝐡𝐞𝐫    
 #Tiktok策略组
   - name: 𝐓𝐢𝐤𝐓𝐨𝐤
     type: select
@@ -165,8 +162,7 @@ proxy-groups:
       - 𝐓𝐖
       - 𝐒𝐆
       - 𝐉𝐏
-      - 𝐔𝐒
-      - 𝐎𝐭𝐡𝐞𝐫   
+      - 𝐔𝐒   
 #Chatgpt策略组
   - name: 𝐎𝐩𝐞𝐧𝐀𝐈
     type: select
@@ -177,12 +173,36 @@ proxy-groups:
       - 𝐒𝐆
       - 𝐉𝐏
       - 𝐔𝐒
-      - 𝐎𝐭𝐡𝐞𝐫
 #GoogleVoice策略组
   - name: 𝐆𝐨𝐨𝐠𝐥𝐞𝐕𝐨𝐢𝐜𝐞
     type: select
     proxies:
-      - 𝐔𝐒    
+      - 𝐔𝐒
+#Google策略组
+  - name: 𝐆𝐨𝐨𝐠𝐥𝐞
+    type: select
+    proxies:
+      - 𝐏𝐫𝐨𝐱𝐲
+      - 𝐇𝐊
+      - 𝐓𝐖
+      - 𝐌𝐎
+      - 𝐂𝐍
+      - 𝐒𝐆
+      - 𝐉𝐏
+      - 𝐔𝐒
+      - 𝐎𝐭𝐡𝐞𝐫
+#PayPal策略组
+  - name: 𝐏𝐚𝐲𝐏𝐚𝐥
+    type: select
+    proxies:
+      - 𝐏𝐫𝐨𝐱𝐲
+      - 𝐇𝐊
+      - 𝐓𝐖
+      - 𝐌𝐎
+      - 𝐂𝐍
+      - 𝐒𝐆
+      - 𝐉𝐏
+      - 𝐔𝐒
 #WeChat策略组
   - name: 𝐖𝐞𝐂𝐡𝐚𝐭
     type: select
@@ -276,12 +296,12 @@ proxy-providers:
   Sub1:
     <<: *http
     path: ./proxies/Sub1.yaml
-    url: 订阅链接
+    url: https://6993300.eu.org/api/v1/client/subscribe?token=26671733edc29949112b93a5a7717592
 
   Sub2:
     <<: *http
     path: ./proxies/Sub2.yaml
-    url: 订阅链接
+    url: https://esycloud.6993300.dev/api/v1/client/subscribe?token=aa78779e96ed2f0b9815ed0f44b99a0c
   #
   # 本地节点，路径可填写绝对路径或者相对路径(为clash工作目录下)
   # Sub3:
@@ -366,6 +386,20 @@ rule-providers:
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleVoice/GoogleVoice.yaml"
     path: ./ruleset/GoogleVoice.yaml
     interval: 86400
+
+  Google:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.yaml"
+    path: ./ruleset/Google.yaml
+    interval: 86400
+    
+  PayPal:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal/PayPal.yaml"
+    path: ./ruleset/PayPal.yaml
+    interval: 86400   
     
   WeChat:
     type: http
@@ -409,6 +443,7 @@ rules:
   - RULE-SET,TikTok,𝐓𝐢𝐤𝐓𝐨𝐤
   - RULE-SET,OpenAI,𝐎𝐩𝐞𝐧𝐀𝐈
   - RULE-SET,Global,国外网站
+  - RULE-SET,PayPal,𝐏𝐚𝐲𝐏𝐚𝐥
   - RULE-SET,WeChat,𝐖𝐞𝐂𝐡𝐚𝐭
   - RULE-SET,GoogleVoice,𝐆𝐨𝐨𝐠𝐥𝐞𝐕𝐨𝐢𝐜𝐞 
   - RULE-SET,China,DIRECT
