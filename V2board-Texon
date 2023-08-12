@@ -1,0 +1,684 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 127.0.0.1:8853
+  enhanced-mode: fake-ip
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fake-ip-filter:
+    - "*.lan"
+    - stun.*.*.*
+    - stun.*.*
+    - time.windows.com
+    - time.nist.gov
+    - time.apple.com
+    - time.asia.apple.com
+    - "*.ntp.org.cn"
+    - "*.openwrt.pool.ntp.org"
+    - time1.cloud.tencent.com
+    - time.ustc.edu.cn
+    - pool.ntp.org
+    - ntp.ubuntu.com
+    - ntp.aliyun.com
+    - ntp1.aliyun.com
+    - ntp2.aliyun.com
+    - ntp3.aliyun.com
+    - ntp4.aliyun.com
+    - ntp5.aliyun.com
+    - ntp6.aliyun.com
+    - ntp7.aliyun.com
+    - time1.aliyun.com
+    - time2.aliyun.com
+    - time3.aliyun.com
+    - time4.aliyun.com
+    - time5.aliyun.com
+    - time6.aliyun.com
+    - time7.aliyun.com
+    - "*.time.edu.cn"
+    - time1.apple.com
+    - time2.apple.com
+    - time3.apple.com
+    - time4.apple.com
+    - time5.apple.com
+    - time6.apple.com
+    - time7.apple.com
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - localhost.ptlogin2.qq.com
+    - "*.*.*.srv.nintendo.net"
+    - "*.*.stun.playstation.net"
+    - xbox.*.*.microsoft.com
+    - "*.ipv6.microsoft.com"
+    - "*.*.xboxlive.com"
+    - speedtest.cros.wr.pvp.net
+
+
+proxies:
+
+proxy-groups:
+- name: "$app_name"
+  type: select
+  proxies: 
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: Abema
+  type: select
+  proxies: 
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: Bahamut
+  type: select
+  proxies: 
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: DAZN
+  type: select
+  proxies: 
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: Disney +
+  type: select
+  proxies:
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: HBO MAX
+  type: select
+  proxies:
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: NETFLIX
+  type: select
+  proxies:
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: Niconico
+  type: select
+  proxies:
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: Paramount +
+  type: select
+  proxies:
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+- name: YouTube
+  type: select
+  proxies:
+  - "$app_name"
+  - 🇭🇰 香港 01 | IEPL
+  - 🇭🇰 香港 02 | 普通线路
+  - 🇸🇬 狮城 01 | IEPL
+  - 🇸🇬 狮城 02 | IEPL
+  - 🇸🇬 狮城 03 | IEPL
+  - 🇯🇵 日本 01 | 普通线路
+  - 🇯🇵 日本 03 | IEPL
+  - 🇺🇸 美国 01 | IEPL
+  - 🇨🇦 枫叶 01 | IEPL
+
+rules:
+# Abema
+- DOMAIN-SUFFIX,abema.io,Abema
+- DOMAIN-SUFFIX,abema.tv,Abema
+- DOMAIN-SUFFIX,abematv.akamaized.net,Abema
+- DOMAIN-SUFFIX,adx.promo,Abema
+- DOMAIN-SUFFIX,ameba.jp,Abema
+- DOMAIN-SUFFIX,amebame.com,Abema
+- DOMAIN-SUFFIX,amebaownd.com,Abema
+- DOMAIN-SUFFIX,amebaowndme.com,Abema
+- DOMAIN-SUFFIX,ameblo.jp,Abema
+- DOMAIN-SUFFIX,bucketeer.jp,Abema
+- DOMAIN-SUFFIX,d1otoma47x30pg.cloudfront.net,Abema
+- DOMAIN-SUFFIX,d2wy8f7a9ursnm.cloudfront.net,Abema
+- DOMAIN-SUFFIX,dokusho-ojikan.jp,Abema
+- DOMAIN-SUFFIX,ds-linear-abematv.akamaized.net,Abema
+- DOMAIN-SUFFIX,ds-vod-abematv.akamaized.net,Abema
+- DOMAIN-SUFFIX,hayabusa.dev,Abema
+- DOMAIN-SUFFIX,hayabusa.io,Abema
+- DOMAIN-SUFFIX,hayabusa.media,Abema
+- DOMAIN-SUFFIX,linear-abematv.akamaized.net,Abema
+- DOMAIN-SUFFIX,vod-abematv.akamaized.net,Abema
+- DOMAIN-SUFFIX,winticket.jp,Abema
+- DOMAIN-KEYWORD,abematv.akamaized.net,Abema
+# Bahamut
+- DOMAIN,bahamut.akamaized.net,Bahamut
+- DOMAIN,gamer-cds.cdn.hinet.net,Bahamut
+- DOMAIN,gamer2-cds.cdn.hinet.net,Bahamut
+- DOMAIN-SUFFIX,bahamut.com.tw,Bahamut
+- DOMAIN-SUFFIX,gamer.com.tw,Bahamut
+# DAZN
+- DOMAIN-SUFFIX,control.kochava.com,DAZN
+- DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,DAZN
+- DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,DAZN
+- DOMAIN-SUFFIX,dazn-api.com,DAZN
+- DOMAIN-SUFFIX,dazn.com,DAZN
+- DOMAIN-SUFFIX,dazndn.com,DAZN
+- DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,DAZN
+- DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,DAZN
+- DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,DAZN
+- DOMAIN-SUFFIX,dcalivedazn.akamaized.net,DAZN
+- DOMAIN-SUFFIX,dcblivedazn.akamaized.net,DAZN
+- DOMAIN-SUFFIX,indazn.com,DAZN
+- DOMAIN-SUFFIX,indaznlab.com,DAZN
+- DOMAIN-SUFFIX,intercom.io,DAZN
+- DOMAIN-SUFFIX,logx.optimizely.com,DAZN
+- DOMAIN-SUFFIX,s.yimg.jp,DAZN
+- DOMAIN-SUFFIX,sentry.io,DAZN
+- DOMAIN-KEYWORD,voddazn,DAZN
+# Disney +
+- DOMAIN-SUFFIX,20thcenturystudios.com.au,Disney +
+- DOMAIN-SUFFIX,20thcenturystudios.com.br,Disney +
+- DOMAIN-SUFFIX,20thcenturystudios.jp,Disney +
+- DOMAIN-SUFFIX,abc-studios.com,Disney +
+- DOMAIN-SUFFIX,abc.com,Disney +
+- DOMAIN-SUFFIX,adobedtm.com,Disney +
+- DOMAIN-SUFFIX,adventuresbydisney.com,Disney +
+- DOMAIN-SUFFIX,babble.com,Disney +
+- DOMAIN-SUFFIX,babyzone.com,Disney +
+- DOMAIN-SUFFIX,bam.nr-data.net,Disney +
+- DOMAIN-SUFFIX,bamgrid.com,Disney +
+- DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk,Disney +
+- DOMAIN-SUFFIX,braze.com,Disney +
+- DOMAIN-SUFFIX,cdn.optimizely.com,Disney +
+- DOMAIN-SUFFIX,conviva.com,Disney +
+- DOMAIN-SUFFIX,d9.flashtalking.com,Disney +
+- DOMAIN-SUFFIX,dilcdn.com,Disney +
+- DOMAIN-SUFFIX,disney-asia.com,Disney +
+- DOMAIN-SUFFIX,disney-discount.com,Disney +
+- DOMAIN-SUFFIX,disney-plus.net,Disney +
+- DOMAIN-SUFFIX,disney-portal.my.onetrust.com,Disney +
+- DOMAIN-SUFFIX,disney-studio.com,Disney +
+- DOMAIN-SUFFIX,disney-studio.net,Disney +
+- DOMAIN-SUFFIX,disney.asia,Disney +
+- DOMAIN-SUFFIX,disney.be,Disney +
+- DOMAIN-SUFFIX,disney.bg,Disney +
+- DOMAIN-SUFFIX,disney.ca,Disney +
+- DOMAIN-SUFFIX,disney.ch,Disney +
+- DOMAIN-SUFFIX,disney.co.il,Disney +
+- DOMAIN-SUFFIX,disney.co.jp,Disney +
+- DOMAIN-SUFFIX,disney.co.kr,Disney +
+- DOMAIN-SUFFIX,disney.co.th,Disney +
+- DOMAIN-SUFFIX,disney.co.uk,Disney +
+- DOMAIN-SUFFIX,disney.co.za,Disney +
+- DOMAIN-SUFFIX,disney.com,Disney +
+- DOMAIN-SUFFIX,disney.com.au,Disney +
+- DOMAIN-SUFFIX,disney.com.br,Disney +
+- DOMAIN-SUFFIX,disney.com.hk,Disney +
+- DOMAIN-SUFFIX,disney.com.tw,Disney +
+- DOMAIN-SUFFIX,disney.cz,Disney +
+- DOMAIN-SUFFIX,disney.de,Disney +
+- DOMAIN-SUFFIX,disney.demdex.net,Disney +
+- DOMAIN-SUFFIX,disney.dk,Disney +
+- DOMAIN-SUFFIX,disney.es,Disney +
+- DOMAIN-SUFFIX,disney.fi,Disney +
+- DOMAIN-SUFFIX,disney.fr,Disney +
+- DOMAIN-SUFFIX,disney.gr,Disney +
+- DOMAIN-SUFFIX,disney.hu,Disney +
+- DOMAIN-SUFFIX,disney.id,Disney +
+- DOMAIN-SUFFIX,disney.in,Disney +
+- DOMAIN-SUFFIX,disney.io,Disney +
+- DOMAIN-SUFFIX,disney.it,Disney +
+- DOMAIN-SUFFIX,disney.my,Disney +
+- DOMAIN-SUFFIX,disney.my.sentry.io,Disney +
+- DOMAIN-SUFFIX,disney.nl,Disney +
+- DOMAIN-SUFFIX,disney.no,Disney +
+- DOMAIN-SUFFIX,disney.ph,Disney +
+- DOMAIN-SUFFIX,disney.pl,Disney +
+- DOMAIN-SUFFIX,disney.pt,Disney +
+- DOMAIN-SUFFIX,disney.ro,Disney +
+- DOMAIN-SUFFIX,disney.ru,Disney +
+- DOMAIN-SUFFIX,disney.se,Disney +
+- DOMAIN-SUFFIX,disney.sg,Disney +
+- DOMAIN-SUFFIX,disneyadsales.com,Disney +
+- DOMAIN-SUFFIX,disneyarena.com,Disney +
+- DOMAIN-SUFFIX,disneyaulani.com,Disney +
+- DOMAIN-SUFFIX,disneybaby.com,Disney +
+- DOMAIN-SUFFIX,disneycareers.com,Disney +
+- DOMAIN-SUFFIX,disneychannelonstage.com,Disney +
+- DOMAIN-SUFFIX,disneychannelroadtrip.com,Disney +
+- DOMAIN-SUFFIX,disneycruisebrasil.com,Disney +
+- DOMAIN-SUFFIX,disneyenconcert.com,Disney +
+- DOMAIN-SUFFIX,disneyiejobs.com,Disney +
+- DOMAIN-SUFFIX,disneyinflight.com,Disney +
+- DOMAIN-SUFFIX,disneyinternational.com,Disney +
+- DOMAIN-SUFFIX,disneyinternationalhd.com,Disney +
+- DOMAIN-SUFFIX,disneyjunior.com,Disney +
+- DOMAIN-SUFFIX,disneyjuniortreataday.com,Disney +
+- DOMAIN-SUFFIX,disneylatino.com,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.co.il,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.co.uk,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.co.za,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.de,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.es,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.fr,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.gen.tr,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.gr,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.it,Disney +
+- DOMAIN-SUFFIX,disneymagicmoments.pl,Disney +
+- DOMAIN-SUFFIX,disneymagicmomentsme.com,Disney +
+- DOMAIN-SUFFIX,disneyme.com,Disney +
+- DOMAIN-SUFFIX,disneymeetingsandevents.com,Disney +
+- DOMAIN-SUFFIX,disneymovieinsiders.com,Disney +
+- DOMAIN-SUFFIX,disneymusicpromotion.com,Disney +
+- DOMAIN-SUFFIX,disneynewseries.com,Disney +
+- DOMAIN-SUFFIX,disneynow.com,Disney +
+- DOMAIN-SUFFIX,disneypeoplesurveys.com,Disney +
+- DOMAIN-SUFFIX,disneyplus.bn5x.net,Disney +
+- DOMAIN-SUFFIX,disneyplus.com,Disney +
+- DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,Disney +
+- DOMAIN-SUFFIX,disneyredirects.com,Disney +
+- DOMAIN-SUFFIX,disneysrivieraresort.com,Disney +
+- DOMAIN-SUFFIX,disneystore.com,Disney +
+- DOMAIN-SUFFIX,disneystreaming.com,Disney +
+- DOMAIN-SUFFIX,disneysubscription.com,Disney +
+- DOMAIN-SUFFIX,disneytickets.co.uk,Disney +
+- DOMAIN-SUFFIX,disneyturkiye.com.tr,Disney +
+- DOMAIN-SUFFIX,disneytvajobs.com,Disney +
+- DOMAIN-SUFFIX,disneyworld-go.com,Disney +
+- DOMAIN-SUFFIX,dmed.technology,Disney +
+- DOMAIN-SUFFIX,dssott.com,Disney +
+- DOMAIN-SUFFIX,dtci.co,Disney +
+- DOMAIN-SUFFIX,dtci.technology,Disney +
+- DOMAIN-SUFFIX,edgedatg.com,Disney +
+- DOMAIN-SUFFIX,espn.co.uk,Disney +
+- DOMAIN-SUFFIX,espn.com,Disney +
+- DOMAIN-SUFFIX,espn.hb.omtrdc.net,Disney +
+- DOMAIN-SUFFIX,espn.net,Disney +
+- DOMAIN-SUFFIX,espncdn.com,Disney +
+- DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net,Disney +
+- DOMAIN-SUFFIX,espnqa.com,Disney +
+- DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,Disney +
+- DOMAIN-SUFFIX,go-disneyworldgo.com,Disney +
+- DOMAIN-SUFFIX,go.com,Disney +
+- DOMAIN-SUFFIX,js-agent.newrelic.com,Disney +
+- DOMAIN-SUFFIX,marvel.com,Disney +
+- DOMAIN-SUFFIX,marvel10thanniversary.com,Disney +
+- DOMAIN-SUFFIX,marveldimensionofheroes.com,Disney +
+- DOMAIN-SUFFIX,marvelparty.net,Disney +
+- DOMAIN-SUFFIX,marvelpinball.com,Disney +
+- DOMAIN-SUFFIX,marvelsdoubleagent.com,Disney +
+- DOMAIN-SUFFIX,marvelspotlightplays.com,Disney +
+- DOMAIN-SUFFIX,marvelsuperheroseptember.com,Disney +
+- DOMAIN-SUFFIX,marvelsuperwar.com,Disney +
+- DOMAIN-SUFFIX,mickey.tv,Disney +
+- DOMAIN-SUFFIX,moviesanywhere.com,Disney +
+- DOMAIN-SUFFIX,natgeomaps.com,Disney +
+- DOMAIN-SUFFIX,nationalgeographic.com,Disney +
+- DOMAIN-SUFFIX,nationalgeographicpartners.com,Disney +
+- DOMAIN-SUFFIX,ngeo.com,Disney +
+- DOMAIN-SUFFIX,nomadlandmovie.ch,Disney +
+- DOMAIN-SUFFIX,playmation.com,Disney +
+- DOMAIN-SUFFIX,shopdisney.com,Disney +
+- DOMAIN-SUFFIX,shops-disney.com,Disney +
+- DOMAIN-SUFFIX,sorcerersarena.com,Disney +
+- DOMAIN-SUFFIX,spaindisney.com,Disney +
+- DOMAIN-SUFFIX,star-brasil.com,Disney +
+- DOMAIN-SUFFIX,star-latam.com,Disney +
+- DOMAIN-SUFFIX,starwars.com,Disney +
+- DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com,Disney +
+- DOMAIN-SUFFIX,starwarskids.com,Disney +
+- DOMAIN-SUFFIX,streamingdisney.net,Disney +
+- DOMAIN-SUFFIX,themarvelexperiencetour.com,Disney +
+- DOMAIN-SUFFIX,thestationbymaker.com,Disney +
+- DOMAIN-SUFFIX,thisispolaris.com,Disney +
+- DOMAIN-SUFFIX,watchdisneyfe.com,Disney +
+- DOMAIN-SUFFIX,watchespn.com,Disney +
+- PROCESS-NAME,com.disney.datg.videoplatforms.android.abc,Disney +
+- PROCESS-NAME,com.disney.disneyplus,Disney +
+# HBO MAX
+- DOMAIN-SUFFIX,hbo.com,HBO MAX
+- DOMAIN-SUFFIX,hbonow.com,HBO MAX
+- DOMAIN-SUFFIX,hbomax.com,HBO MAX
+- DOMAIN-SUFFIX,hbomaxcdn.com,HBO MAX
+- DOMAIN,execute-api.ap-southeast-1.amazonaws.com,HBO MAX
+# NETFLIX
+- DOMAIN-SUFFIX,netflix.com,NETFLIX
+- DOMAIN-SUFFIX,netflix.com.edgesuite.net,NETFLIX
+- DOMAIN-SUFFIX,netflix.net,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest0.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest1.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest2.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest3.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest4.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest5.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest6.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest7.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest8.com,NETFLIX
+- DOMAIN-SUFFIX,netflixdnstest9.com,NETFLIX
+- DOMAIN-SUFFIX,netflixstudios.com,NETFLIX
+- DOMAIN-SUFFIX,nflxext.com,NETFLIX
+- DOMAIN-SUFFIX,nflximg.com,NETFLIX
+- DOMAIN-SUFFIX,nflximg.net,NETFLIX
+- DOMAIN-SUFFIX,nflxsearch.net,NETFLIX
+- DOMAIN-SUFFIX,nflxso.net,NETFLIX
+- DOMAIN-SUFFIX,nflxvideo.net,NETFLIX
+- IP-CIDR,23.246.0.0/18,NETFLIX
+- IP-CIDR,37.77.184.0/21,NETFLIX
+- IP-CIDR,38.72.126.0/24,NETFLIX
+- IP-CIDR,45.57.0.0/17,NETFLIX
+- IP-CIDR,64.120.128.0/17,NETFLIX
+- IP-CIDR,66.197.128.0/17,NETFLIX
+- IP-CIDR,69.53.224.0/19,NETFLIX
+- IP-CIDR,103.87.204.0/22,NETFLIX
+- IP-CIDR,108.175.32.0/20,NETFLIX
+- IP-CIDR,185.2.220.0/22,NETFLIX
+- IP-CIDR,185.9.188.0/22,NETFLIX
+- IP-CIDR,192.173.64.0/18,NETFLIX
+- IP-CIDR,198.38.96.0/19,NETFLIX
+- IP-CIDR,198.45.48.0/20,NETFLIX
+- IP-CIDR,208.75.76.0/22,NETFLIX
+- IP-CIDR,34.210.42.111/32,NETFLIX
+- IP-CIDR,52.89.124.203/32,NETFLIX
+- IP-CIDR,54.148.37.5/32,NETFLIX
+# Niconico
+- DOMAIN-SUFFIX,dmc.nico,Niconico
+- DOMAIN-SUFFIX,nicodic.jp,Niconico
+- DOMAIN-SUFFIX,nicomanga.jp,Niconico
+- DOMAIN-SUFFIX,niconico.com,Niconico
+- DOMAIN-SUFFIX,nicoseiga.jp,Niconico
+- DOMAIN-SUFFIX,nicovideo.jp,Niconico
+- DOMAIN-SUFFIX,nimg.jp,Niconico
+- DOMAIN-SUFFIX,simg.jp,Niconico
+- DOMAIN-SUFFIX,socdm.com,Niconico
+# Paramount +
+- DOMAIN,cbsi.live.ott.irdeto.com,Paramount +
+- DOMAIN,cbsplaylistserver.aws.syncbak.com,Paramount +
+- DOMAIN,cbsservice.aws.syncbak.com,Paramount +
+- DOMAIN,link.theplatform.com,Paramount +
+- DOMAIN-SUFFIX,cbsaavideo.com,Paramount +
+- DOMAIN-SUFFIX,cbsi.com,Paramount +
+- DOMAIN-SUFFIX,cbsivideo.com,Paramount +
+- DOMAIN-SUFFIX,paramountplus.com,Paramount +
+- DOMAIN-SUFFIX,pplusstatic.com,Paramount +
+# YouTube
+- DOMAIN-SUFFIX,ggpht.cn,YouTube
+- DOMAIN-SUFFIX,ggpht.com,YouTube
+- DOMAIN-SUFFIX,googlevideo.com,YouTube
+- DOMAIN-SUFFIX,gvt2.com,YouTube
+- DOMAIN-SUFFIX,withyoutube.com,YouTube
+- DOMAIN-SUFFIX,youtu.be,YouTube
+- DOMAIN-SUFFIX,youtube-nocookie.com,YouTube
+- DOMAIN-SUFFIX,youtube.ae,YouTube
+- DOMAIN-SUFFIX,youtube.al,YouTube
+- DOMAIN-SUFFIX,youtube.am,YouTube
+- DOMAIN-SUFFIX,youtube.at,YouTube
+- DOMAIN-SUFFIX,youtube.az,YouTube
+- DOMAIN-SUFFIX,youtube.ba,YouTube
+- DOMAIN-SUFFIX,youtube.be,YouTube
+- DOMAIN-SUFFIX,youtube.bg,YouTube
+- DOMAIN-SUFFIX,youtube.bh,YouTube
+- DOMAIN-SUFFIX,youtube.bo,YouTube
+- DOMAIN-SUFFIX,youtube.by,YouTube
+- DOMAIN-SUFFIX,youtube.ca,YouTube
+- DOMAIN-SUFFIX,youtube.cat,YouTube
+- DOMAIN-SUFFIX,youtube.ch,YouTube
+- DOMAIN-SUFFIX,youtube.cl,YouTube
+- DOMAIN-SUFFIX,youtube.co,YouTube
+- DOMAIN-SUFFIX,youtube.co.ae,YouTube
+- DOMAIN-SUFFIX,youtube.co.at,YouTube
+- DOMAIN-SUFFIX,youtube.co.cr,YouTube
+- DOMAIN-SUFFIX,youtube.co.hu,YouTube
+- DOMAIN-SUFFIX,youtube.co.id,YouTube
+- DOMAIN-SUFFIX,youtube.co.il,YouTube
+- DOMAIN-SUFFIX,youtube.co.in,YouTube
+- DOMAIN-SUFFIX,youtube.co.jp,YouTube
+- DOMAIN-SUFFIX,youtube.co.ke,YouTube
+- DOMAIN-SUFFIX,youtube.co.kr,YouTube
+- DOMAIN-SUFFIX,youtube.co.ma,YouTube
+- DOMAIN-SUFFIX,youtube.co.nz,YouTube
+- DOMAIN-SUFFIX,youtube.co.th,YouTube
+- DOMAIN-SUFFIX,youtube.co.tz,YouTube
+- DOMAIN-SUFFIX,youtube.co.ug,YouTube
+- DOMAIN-SUFFIX,youtube.co.uk,YouTube
+- DOMAIN-SUFFIX,youtube.co.ve,YouTube
+- DOMAIN-SUFFIX,youtube.co.za,YouTube
+- DOMAIN-SUFFIX,youtube.co.zw,YouTube
+- DOMAIN-SUFFIX,youtube.com,YouTube
+- DOMAIN-SUFFIX,youtube.com.ar,YouTube
+- DOMAIN-SUFFIX,youtube.com.au,YouTube
+- DOMAIN-SUFFIX,youtube.com.az,YouTube
+- DOMAIN-SUFFIX,youtube.com.bd,YouTube
+- DOMAIN-SUFFIX,youtube.com.bh,YouTube
+- DOMAIN-SUFFIX,youtube.com.bo,YouTube
+- DOMAIN-SUFFIX,youtube.com.br,YouTube
+- DOMAIN-SUFFIX,youtube.com.by,YouTube
+- DOMAIN-SUFFIX,youtube.com.co,YouTube
+- DOMAIN-SUFFIX,youtube.com.do,YouTube
+- DOMAIN-SUFFIX,youtube.com.ec,YouTube
+- DOMAIN-SUFFIX,youtube.com.ee,YouTube
+- DOMAIN-SUFFIX,youtube.com.eg,YouTube
+- DOMAIN-SUFFIX,youtube.com.es,YouTube
+- DOMAIN-SUFFIX,youtube.com.gh,YouTube
+- DOMAIN-SUFFIX,youtube.com.gr,YouTube
+- DOMAIN-SUFFIX,youtube.com.gt,YouTube
+- DOMAIN-SUFFIX,youtube.com.hk,YouTube
+- DOMAIN-SUFFIX,youtube.com.hn,YouTube
+- DOMAIN-SUFFIX,youtube.com.hr,YouTube
+- DOMAIN-SUFFIX,youtube.com.jm,YouTube
+- DOMAIN-SUFFIX,youtube.com.jo,YouTube
+- DOMAIN-SUFFIX,youtube.com.kw,YouTube
+- DOMAIN-SUFFIX,youtube.com.lb,YouTube
+- DOMAIN-SUFFIX,youtube.com.lv,YouTube
+- DOMAIN-SUFFIX,youtube.com.ly,YouTube
+- DOMAIN-SUFFIX,youtube.com.mk,YouTube
+- DOMAIN-SUFFIX,youtube.com.mt,YouTube
+- DOMAIN-SUFFIX,youtube.com.mx,YouTube
+- DOMAIN-SUFFIX,youtube.com.my,YouTube
+- DOMAIN-SUFFIX,youtube.com.ng,YouTube
+- DOMAIN-SUFFIX,youtube.com.ni,YouTube
+- DOMAIN-SUFFIX,youtube.com.om,YouTube
+- DOMAIN-SUFFIX,youtube.com.pa,YouTube
+- DOMAIN-SUFFIX,youtube.com.pe,YouTube
+- DOMAIN-SUFFIX,youtube.com.ph,YouTube
+- DOMAIN-SUFFIX,youtube.com.pk,YouTube
+- DOMAIN-SUFFIX,youtube.com.pt,YouTube
+- DOMAIN-SUFFIX,youtube.com.py,YouTube
+- DOMAIN-SUFFIX,youtube.com.qa,YouTube
+- DOMAIN-SUFFIX,youtube.com.ro,YouTube
+- DOMAIN-SUFFIX,youtube.com.sa,YouTube
+- DOMAIN-SUFFIX,youtube.com.sg,YouTube
+- DOMAIN-SUFFIX,youtube.com.sv,YouTube
+- DOMAIN-SUFFIX,youtube.com.tn,YouTube
+- DOMAIN-SUFFIX,youtube.com.tr,YouTube
+- DOMAIN-SUFFIX,youtube.com.tw,YouTube
+- DOMAIN-SUFFIX,youtube.com.ua,YouTube
+- DOMAIN-SUFFIX,youtube.com.uy,YouTube
+- DOMAIN-SUFFIX,youtube.com.ve,YouTube
+- DOMAIN-SUFFIX,youtube.cr,YouTube
+- DOMAIN-SUFFIX,youtube.cz,YouTube
+- DOMAIN-SUFFIX,youtube.de,YouTube
+- DOMAIN-SUFFIX,youtube.dk,YouTube
+- DOMAIN-SUFFIX,youtube.ee,YouTube
+- DOMAIN-SUFFIX,youtube.es,YouTube
+- DOMAIN-SUFFIX,youtube.fi,YouTube
+- DOMAIN-SUFFIX,youtube.fr,YouTube
+- DOMAIN-SUFFIX,youtube.ge,YouTube
+- DOMAIN-SUFFIX,youtube.gr,YouTube
+- DOMAIN-SUFFIX,youtube.gt,YouTube
+- DOMAIN-SUFFIX,youtube.hk,YouTube
+- DOMAIN-SUFFIX,youtube.hr,YouTube
+- DOMAIN-SUFFIX,youtube.hu,YouTube
+- DOMAIN-SUFFIX,youtube.ie,YouTube
+- DOMAIN-SUFFIX,youtube.in,YouTube
+- DOMAIN-SUFFIX,youtube.iq,YouTube
+- DOMAIN-SUFFIX,youtube.is,YouTube
+- DOMAIN-SUFFIX,youtube.it,YouTube
+- DOMAIN-SUFFIX,youtube.jo,YouTube
+- DOMAIN-SUFFIX,youtube.jp,YouTube
+- DOMAIN-SUFFIX,youtube.kr,YouTube
+- DOMAIN-SUFFIX,youtube.kz,YouTube
+- DOMAIN-SUFFIX,youtube.la,YouTube
+- DOMAIN-SUFFIX,youtube.lk,YouTube
+- DOMAIN-SUFFIX,youtube.lt,YouTube
+- DOMAIN-SUFFIX,youtube.lu,YouTube
+- DOMAIN-SUFFIX,youtube.lv,YouTube
+- DOMAIN-SUFFIX,youtube.ly,YouTube
+- DOMAIN-SUFFIX,youtube.ma,YouTube
+- DOMAIN-SUFFIX,youtube.md,YouTube
+- DOMAIN-SUFFIX,youtube.me,YouTube
+- DOMAIN-SUFFIX,youtube.mk,YouTube
+- DOMAIN-SUFFIX,youtube.mn,YouTube
+- DOMAIN-SUFFIX,youtube.mx,YouTube
+- DOMAIN-SUFFIX,youtube.my,YouTube
+- DOMAIN-SUFFIX,youtube.ng,YouTube
+- DOMAIN-SUFFIX,youtube.ni,YouTube
+- DOMAIN-SUFFIX,youtube.nl,YouTube
+- DOMAIN-SUFFIX,youtube.no,YouTube
+- DOMAIN-SUFFIX,youtube.pa,YouTube
+- DOMAIN-SUFFIX,youtube.pe,YouTube
+- DOMAIN-SUFFIX,youtube.ph,YouTube
+- DOMAIN-SUFFIX,youtube.pk,YouTube
+- DOMAIN-SUFFIX,youtube.pl,YouTube
+- DOMAIN-SUFFIX,youtube.pr,YouTube
+- DOMAIN-SUFFIX,youtube.pt,YouTube
+- DOMAIN-SUFFIX,youtube.qa,YouTube
+- DOMAIN-SUFFIX,youtube.ro,YouTube
+- DOMAIN-SUFFIX,youtube.rs,YouTube
+- DOMAIN-SUFFIX,youtube.ru,YouTube
+- DOMAIN-SUFFIX,youtube.sa,YouTube
+- DOMAIN-SUFFIX,youtube.se,YouTube
+- DOMAIN-SUFFIX,youtube.sg,YouTube
+- DOMAIN-SUFFIX,youtube.si,YouTube
+- DOMAIN-SUFFIX,youtube.sk,YouTube
+- DOMAIN-SUFFIX,youtube.sn,YouTube
+- DOMAIN-SUFFIX,youtube.soy,YouTube
+- DOMAIN-SUFFIX,youtube.sv,YouTube
+- DOMAIN-SUFFIX,youtube.tn,YouTube
+- DOMAIN-SUFFIX,youtube.tv,YouTube
+- DOMAIN-SUFFIX,youtube.ua,YouTube
+- DOMAIN-SUFFIX,youtube.ug,YouTube
+- DOMAIN-SUFFIX,youtube.uy,YouTube
+- DOMAIN-SUFFIX,youtube.vn,YouTube
+- DOMAIN-SUFFIX,youtubeeducation.com,YouTube
+- DOMAIN-SUFFIX,youtubefanfest.com,YouTube
+- DOMAIN-SUFFIX,youtubegaming.com,YouTube
+- DOMAIN-SUFFIX,youtubego.co.id,YouTube
+- DOMAIN-SUFFIX,youtubego.co.in,YouTube
+- DOMAIN-SUFFIX,youtubego.com,YouTube
+- DOMAIN-SUFFIX,youtubego.com.br,YouTube
+- DOMAIN-SUFFIX,youtubego.id,YouTube
+- DOMAIN-SUFFIX,youtubego.in,YouTube
+- DOMAIN-SUFFIX,youtubei.googleapis.com,YouTube
+- DOMAIN-SUFFIX,youtubekids.com,YouTube
+- DOMAIN-SUFFIX,youtubemobilesupport.com,YouTube
+- DOMAIN-SUFFIX,yt.be,YouTube
+- DOMAIN-SUFFIX,ytimg.com,YouTube
+- DOMAIN-KEYWORD,youtube,YouTube
+- IP-CIDR,172.110.32.0/21,YouTube
+- IP-CIDR,216.73.80.0/20,YouTube
+- IP-CIDR6,2620:120:e000::/40,YouTube
+# DEFAULT
+- GEOIP,CN,DIRECT
+- MATCH,"$app_name"
