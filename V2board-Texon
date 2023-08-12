@@ -89,144 +89,25 @@ dns:
 proxies:
 
 proxy-groups:
-- name: "$app_name"
-  type: select
-  proxies: 
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
+- { name: "$app_name",type: select,proxies: ["🇭🇰 香港 01 | IEPL", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
 
-- name: Abema
-  type: select
-  proxies: 
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
+- { name: "Abema",type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
 
-- name: Bahamut
-  type: select
-  proxies: 
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
+- { name: Bahamut,type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
+ 
+- { name: DAZN,type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
+ 
+- { name: Disney +,type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
 
-- name: DAZN
-  type: select
-  proxies: 
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
+- { name: HBO MAX,type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
 
-- name: Disney +
-  type: select
-  proxies:
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
+- { name: NETFLIX,type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
 
-- name: HBO MAX
-  type: select
-  proxies:
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
+- { name: Niconico,type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
 
-- name: NETFLIX
-  type: select
-  proxies:
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
+- { name: Paramount +,type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
 
-- name: Niconico
-  type: select
-  proxies:
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
-
-- name: Paramount +
-  type: select
-  proxies:
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
-
-- name: YouTube
-  type: select
-  proxies:
-  - "$app_name"
-  - 🇭🇰 香港 01 | IEPL
-  - 🇭🇰 香港 02 | 普通线路
-  - 🇸🇬 狮城 01 | IEPL
-  - 🇸🇬 狮城 02 | IEPL
-  - 🇸🇬 狮城 03 | IEPL
-  - 🇯🇵 日本 01 | 普通线路
-  - 🇯🇵 日本 03 | IEPL
-  - 🇺🇸 美国 01 | IEPL
-  - 🇨🇦 枫叶 01 | IEPL
+- { name: YouTube,type: select,proxies: [""$app_name"", "🇭🇰 香港 02 | 普通线路", "🇸🇬 狮城 01 | IEPL", "🇸🇬 狮城 02 | IEPL", "🇸🇬 狮城 03 | IEPL", "🇯🇵 日本 01 | 普通线路", "🇯🇵 日本 03 | IEPL", "🇺🇸 美国 01 | IEPL", "🇨🇦 枫叶 01 | IEPL"] }
 
 rules:
 # Abema
