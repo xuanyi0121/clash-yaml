@@ -2152,4 +2152,4 @@ rules:
 
   # DEFAULT
   - GEOIP,CN,DIRECT
-  - MATCH,"$app_name"
+  - MATCH,$app_name
