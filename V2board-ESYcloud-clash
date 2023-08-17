@@ -91,19 +91,19 @@ proxies:
 proxy-groups:
   - { name: "$app_name", type: select, proxies: ["自动选择"] }
   - { name: "自动选择", type: url-test, proxies: [ /^((?!(剩余|重置|到期)).)*$/], url: "http://www.gstatic.com/generate_204", interval: 86400 }
-  - { name: "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐗", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐃𝐢𝐬𝐧𝐞𝐲 +", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐍𝐞𝐭𝐟𝐥𝐢𝐱", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐘𝐨𝐮𝐓𝐮𝐛𝐞", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐁𝐢𝐥𝐢𝐛𝐢𝐥𝐢", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐓𝐢𝐤𝐓𝐨𝐤", type: select, proxies: [/^((?!(剩余|重置|到期|🇭🇰|Hong|HK|香港)).)*$/, "自动选择"] }
-  - { name: "𝐏𝐚𝐲𝐏𝐚𝐥", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐎𝐩𝐞𝐧𝐀𝐢", type: select, proxies: [/^((?!(剩余|重置|到期|🇭🇰|Hong|HK|香港)).)*$/, "自动选择"] }
-  - { name: "𝐆𝐨𝐨𝐠𝐥𝐞", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "自动选择"] }
-  - { name: "𝐆𝐨𝐨𝐠𝐥𝐞 𝐕𝐨𝐢𝐜𝐞", type: select, proxies: [/🇺🇸|US|United|United States|美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥/, "自动选择"] } 
+  - { name: "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐗", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name",  "自动选择"] }
+  - { name: "𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐃𝐢𝐬𝐧𝐞𝐲 +", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐍𝐞𝐭𝐟𝐥𝐢𝐱", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐘𝐨𝐮𝐓𝐮𝐛𝐞", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐁𝐢𝐥𝐢𝐛𝐢𝐥𝐢", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐓𝐢𝐤𝐓𝐨𝐤", type: select, proxies: [/^((?!(剩余|重置|到期|🇭🇰|Hong|HK|香港)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐏𝐚𝐲𝐏𝐚𝐥", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐎𝐩𝐞𝐧𝐀𝐢", type: select, proxies: [/^((?!(剩余|重置|到期|🇭🇰|Hong|HK|香港)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐆𝐨𝐨𝐠𝐥𝐞", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
+  - { name: "𝐆𝐨𝐨𝐠𝐥𝐞 𝐕𝐨𝐢𝐜𝐞", type: select, proxies: [/🇺🇸|US|United|United States|美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥/, "$app_name", "自动选择"] } 
   - { name: "HK", type: select, proxies: [/🇭🇰|HK|Hong|香港|港/, "自动选择"] }
   - { name: "SG", type: select, proxies: [/🇸🇬|SG|Singapore|狮城|新加坡/, "自动选择"] }               
   - { name: "JP", type: select, proxies: [/🇯🇵|JP|japan|日本|川日|东京|大阪|泉日|埼玉|沪日|深日/, "自动选择"] }
