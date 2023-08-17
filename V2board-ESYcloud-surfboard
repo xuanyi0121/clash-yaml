@@ -21,10 +21,10 @@ SubscribeInfo = $subscribe_info, style=info
 $proxies
 
 [Proxy Group]
-$proxy_group = select, 自动选择
-自动选择 = url-test, url=http://www.gstatic.com/generate_204, interval=43200
-𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 = select, $proxy_group, 自动选择
-𝐗 = select, $proxy_group, 自动选择
+𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃 = select, 自动选择, $proxy_group
+自动选择 = url-test, $proxy_group, url=http://www.gstatic.com/generate_204, interval=43200
+𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐗 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 
 [Rule]
 # 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦规则  
@@ -76,4 +76,4 @@ $proxy_group = select, 自动选择
 
 # 最终规则
 GEOIP,CN,DIRECT
-FINAL,Proxy
+FINAL,𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃
