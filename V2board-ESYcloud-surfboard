@@ -28,6 +28,12 @@ $proxies
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐍𝐞𝐭𝐟𝐥𝐢𝐱 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐃𝐢𝐬𝐧𝐞𝐲+ = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐓𝐢𝐤𝐓𝐨𝐤 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐒𝐩𝐨𝐭𝐢𝐟𝐲 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+
+
 
 [Rule]
 # 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦规则  
