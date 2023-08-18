@@ -32,7 +32,11 @@ $proxies
 𝐃𝐢𝐬𝐧𝐞𝐲+ = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐓𝐢𝐤𝐓𝐨𝐤 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐒𝐩𝐨𝐭𝐢𝐟𝐲 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
-
+𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐎𝐩𝐞𝐧𝐀𝐈 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐏𝐚𝐲𝐏𝐚𝐥 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐆𝐨𝐨𝐠𝐥𝐞 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐆𝐨𝐨𝐠𝐥𝐞𝐕𝐨𝐢𝐜𝐞 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 
 
 [Rule]
