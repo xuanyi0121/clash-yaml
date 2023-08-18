@@ -29,7 +29,7 @@ $proxies
 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐍𝐞𝐭𝐟𝐥𝐢𝐱 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
-𝐃𝐢𝐬𝐧𝐞𝐲+ = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
+𝐃𝐢𝐬𝐧𝐞𝐲 + = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐓𝐢𝐤𝐓𝐨𝐤 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐒𝐩𝐨𝐭𝐢𝐟𝐲 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
 𝐁𝐢𝐥𝐢𝐁𝐢𝐥𝐢 = select, 𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃, $proxy_group
@@ -1018,6 +1018,167 @@ $proxies
 - IP-CIDR6,2605:9CC0::/32,𝐍𝐞𝐭𝐟𝐥𝐢𝐱
 - IP-CIDR6,2606:F40::/32,𝐍𝐞𝐭𝐟𝐥𝐢𝐱
 - IP-CIDR6,2620:107::/32,𝐍𝐞𝐭𝐟𝐥𝐢𝐱
+
+# 𝐃𝐢𝐬𝐧𝐞𝐲 +规则
+- DOMAIN-SUFFIX,20thcenturystudios.com.au,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,20thcenturystudios.com.br,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,20thcenturystudios.jp,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,abc-studios.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,abc.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,adobedtm.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,adventuresbydisney.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,babble.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,babyzone.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,bam.nr-data.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,bamgrid.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,beautyandthebeastmusical.co.uk,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,braze.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,cdn.optimizely.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,conviva.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,d9.flashtalking.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,dilcdn.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney-asia.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney-discount.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney-plus.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney-portal.my.onetrust.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney-studio.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney-studio.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.asia,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.be,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.bg,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.ca,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.ch,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.co.il,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.co.jp,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.co.kr,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.co.th,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.co.uk,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.co.za,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.com.au,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.com.br,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.com.hk,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.com.tw,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.cz,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.de,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.demdex.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.dk,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.es,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.fi,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.fr,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.gr,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.hu,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.id,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.in,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.io,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.it,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.my,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.my.sentry.io,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.nl,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.no,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.ph,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.pl,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.pt,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.ro,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.ru,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.se,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disney.sg,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyadsales.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyarena.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyaulani.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneybaby.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneycareers.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneychannelonstage.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneychannelroadtrip.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneycruisebrasil.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyenconcert.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyiejobs.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyinflight.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyinternational.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyinternationalhd.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyjunior.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyjuniortreataday.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneylatino.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.co.il,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.co.uk,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.co.za,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.de,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.es,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.fr,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.gen.tr,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.gr,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.it,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmoments.pl,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymagicmomentsme.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyme.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymeetingsandevents.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymovieinsiders.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneymusicpromotion.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneynewseries.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneynow.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneypeoplesurveys.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyplus.bn5x.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyplus.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyredirects.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneysrivieraresort.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneystore.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneystreaming.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneysubscription.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneytickets.co.uk,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyturkiye.com.tr,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneytvajobs.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,disneyworld-go.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,dmed.technology,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,dssott.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,dtci.co,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,dtci.technology,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,edgedatg.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,espn.co.uk,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,espn.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,espn.hb.omtrdc.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,espn.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,espncdn.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,espnqa.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,go-disneyworldgo.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,go.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,js-agent.newrelic.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marvel.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marvel10thanniversary.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marveldimensionofheroes.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marvelparty.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marvelpinball.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marvelsdoubleagent.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marvelspotlightplays.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marvelsuperheroseptember.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,marvelsuperwar.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,mickey.tv,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,moviesanywhere.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,natgeomaps.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,nationalgeographic.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,nationalgeographicpartners.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,ngeo.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,nomadlandmovie.ch,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,playmation.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,shopdisney.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,shops-disney.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,sorcerersarena.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,spaindisney.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,star-brasil.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,star-latam.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,starwars.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,starwarskids.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,streamingdisney.net,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,themarvelexperiencetour.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,thestationbymaker.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,thisispolaris.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,watchdisneyfe.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- DOMAIN-SUFFIX,watchespn.com,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- PROCESS-NAME,com.disney.datg.videoplatforms.android.abc,𝐃𝐢𝐬𝐧𝐞𝐲 +
+- PROCESS-NAME,com.disney.disneyplus,𝐃𝐢𝐬𝐧𝐞𝐲 +
 
 
 
