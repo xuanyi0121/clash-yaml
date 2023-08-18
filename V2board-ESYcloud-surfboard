@@ -651,6 +651,83 @@ $proxies
 - IP-CIDR,54.235.23.242/32,𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤,no-resolve
 - IP-CIDR,54.93.124.31/32,𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤,no-resolve
 
+# 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦规则
+- DOMAIN-SUFFIX,achat-followers-instagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,acheter-followers-instagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,acheterdesfollowersinstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,acheterfollowersinstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,bookstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,carstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,cdninstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,chickstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,ig.me,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,igcdn.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,igsonar.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,igtv.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,imstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,imtagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instaadder.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instachecker.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instafallow.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instafollower.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagainer.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagda.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagify.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagmania.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagor.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagr.am,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagram-brand.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagram-engineering.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagram-help.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagram-press.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagram-press.net,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramci.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramcn.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramdi.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramhashtags.net,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramhilecim.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramhilesi.org,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramium.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramizlenme.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramkusu.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramlogin.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramm.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramn.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagrampartners.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramphoto.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramq.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramsepeti.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramtakipcisatinal.net,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramtakiphilesi.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramtips.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagramtr.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagran.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagranm.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagrem.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagrm.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagtram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instagy.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instamgram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instangram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instanttelegram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instaplayer.net,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instastyle.tv,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,instgram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,intagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,intagrm.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,intgram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,kingstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,lnstagram-help.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,oninstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,online-instagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,onlineinstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,theinstagramhack.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,web-instagram.net,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-SUFFIX,wwwinstagram.com,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+- DOMAIN-KEYWORD,instagram,𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦
+
+
 # 最终规则
 GEOIP,CN,DIRECT
 FINAL,𝐄𝐒𝐘 𝐂𝐋𝐎𝐔𝐃
