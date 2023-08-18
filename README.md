@@ -1,4 +1,4 @@
-# clash.yaml
+# Clash.yaml
 Ps:clash.yaml是clash的配置文件
 
 自用配置
@@ -7,10 +7,18 @@ Ps:clash.yaml是clash的配置文件
 
 电脑不知道能不能用
 
-# V2board-ESYcloud
-Ps:V2board-ESYcloud是V2board的clash配置。
+# V2board-ESYcloud-Clash
+Ps:V2board-ESYcloud是V2board用配置。
 
 『Clash配置文件自定义
 首先你需要前往 /resources/rules ，这个目录下存放着订阅软件相关配置文件
 复制一份default.clash.yaml重命名为custom.clash.yaml并且配置成自己想要的形式，其中$app_name参数为站点名称可以参考默认配置文件配置。保存后将会优先使用custom.clash.yaml，需要恢复默认配置删除即可。
+后续V2board进行更新则不会覆盖该配置。』
+
+# V2board-ESYcloud-surfboard
+Ps:V2board-ESYcloud是V2board用的配置
+
+『surfboard配置文件自定义
+首先你需要前往 /resources/rules ，这个目录下存放着订阅软件相关配置文件
+复制一份default.surfboard.yaml重命名为custom.surfboard.yaml并且配置成自己想要的形式，保存后将会优先使用custom.surfboard.yaml，需要恢复默认配置删除即可。
 后续V2board进行更新则不会覆盖该配置。』
