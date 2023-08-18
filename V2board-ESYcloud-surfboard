@@ -1205,6 +1205,36 @@ $proxies
 - DOMAIN-KEYWORD,tiktok,𝐓𝐢𝐤𝐓𝐨𝐤
 - PROCESS-NAME,com.zhiliaoapp.musically,𝐓𝐢𝐤𝐓𝐨𝐤
 
+# 𝐒𝐩𝐨𝐭𝐢𝐟𝐲规则
+-DOMAIN,audio4-ak-spotify-com.akamaized.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN,heads-ak-spotify-com.akamaized.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN,spotify.com.edgesuite.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN,spotify.map.fastly.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN,spotify.map.fastlylb.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,byspotify.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,pscdn.co,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,scdn.co,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spoti.fi,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotify-com.akamaized.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotify-everywhere.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotify.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotify.design,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotifycdn.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotifycdn.net,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotifycharts.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotifycodes.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotifyforbrands.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotifyjobs.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotifynewsroom.jp,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,spotilocal.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-SUFFIX,tospotify.com,𝐒𝐩𝐨𝐭𝐢𝐟𝐲
+-DOMAIN-KEYWORD,𝐒𝐩𝐨𝐭𝐢𝐟𝐲,-spotify-
+-DOMAIN-KEYWORD,𝐒𝐩𝐨𝐭𝐢𝐟𝐲,spotify.com
+-IP-CIDR,104.154.127.126/32,𝐒𝐩𝐨𝐭𝐢𝐟𝐲,no-resolve
+-IP-CIDR,35.186.224.47/32,𝐒𝐩𝐨𝐭𝐢𝐟𝐲,no-resolve
+
 
 
 # 最终规则
