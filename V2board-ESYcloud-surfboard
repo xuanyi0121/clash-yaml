@@ -1180,6 +1180,31 @@ $proxies
 - PROCESS-NAME,com.disney.datg.videoplatforms.android.abc,𝐃𝐢𝐬𝐧𝐞𝐲 +
 - PROCESS-NAME,com.disney.disneyplus,𝐃𝐢𝐬𝐧𝐞𝐲 +
 
+# 𝐓𝐢𝐤𝐓𝐨𝐤规则
+- DOMAIN,p16-tiktokcdn-com.akamaized.net,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,bytedapm.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,bytegecko-i18n.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,bytegecko.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,byteoversea.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,ibytedtos.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,ibyteimg.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,ipstatp.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,isnssdk.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,muscdn.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,musical.ly,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,sgpstatp.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,snssdk.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,tik-tokapi.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,tiktok.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,tiktokcdn-us.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,tiktokcdn.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,tiktokd.net,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,tiktokd.org,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-SUFFIX,tiktokv.com,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-KEYWORD,musical.ly,𝐓𝐢𝐤𝐓𝐨𝐤
+- DOMAIN-KEYWORD,tiktok,𝐓𝐢𝐤𝐓𝐨𝐤
+- PROCESS-NAME,com.zhiliaoapp.musically,𝐓𝐢𝐤𝐓𝐨𝐤
+
 
 
 # 最终规则
