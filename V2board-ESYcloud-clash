@@ -104,11 +104,6 @@ proxy-groups:
   - { name: "𝐎𝐩𝐞𝐧𝐀𝐢", type: select, proxies: [/^((?!(剩余|重置|到期|🇭🇰|Hong|HK|香港)).)*$/, "$app_name", "自动选择"] }
   - { name: "𝐆𝐨𝐨𝐠𝐥𝐞", type: select, proxies: [/^((?!(剩余|重置|到期)).)*$/, "$app_name", "自动选择"] }
   - { name: "𝐆𝐨𝐨𝐠𝐥𝐞 𝐕𝐨𝐢𝐜𝐞", type: select, proxies: [/🇺🇸|US|United|United States|美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥/, "$app_name", "自动选择"] } 
-  - { name: "HK", type: select, proxies: [/🇭🇰|HK|Hong|香港|港/, "自动选择"] }
-  - { name: "SG", type: select, proxies: [/🇸🇬|SG|Singapore|狮城|新加坡/, "自动选择"] }               
-  - { name: "JP", type: select, proxies: [/🇯🇵|JP|japan|日本|川日|东京|大阪|泉日|埼玉|沪日|深日/, "自动选择"] }
-  - { name: "US", type: select, proxies: [/🇺🇸|US|United|United States|美|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥/, "自动选择"] }
-  - { name: "Ohter", type: select, proxies: [/^((?!(Hong|HK|USA|Japan|Singapore|USA|🇭🇰|🇯🇵|🇸🇬|🇺🇸|香港|日本|狮城|新加坡|美国)).)*$/, "自动选择"] }
 
 rules:
   # 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦规则
